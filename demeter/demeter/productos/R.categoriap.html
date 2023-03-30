@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>R_cproductos</title>
+    <link rel="stylesheet" href="R.categoriap.css">
+</head>
+<body>
+   <header>
+      <div class="parte_sup">
+        <a href="/demeter/index/index.html"><img src="/demeter/img/logo.png" alt=""></a>
+      </div>
+      <div class="linea_sup">
+        <img src="/demeter/img/linea_multi.png" alt="">
+      </div>
+      </header>
+   
+    <div class="position_gen">
+        <nav>
+        <div class="position_menu">
+            <div class="">
+
+                <div class="icon_position0">
+                    <a href="/demeter/Compras/compras.html" onclick="_blank"><img src="/demeter/img/compras_b.png" alt=""></a>
+                       <p class="prueba">Compras</p>
+                </div>
+                 <div class="icon_position1">
+                  
+                    <a href="/demeter/ventas/ventas.html" onclick="_blank"><img src="/demeter/img/ventas_b.png" alt=""></a>
+                       <p class="prueba">Ventas</p>
+                </div>
+                 <div class="icon_position2">
+                    <a href="/demeter/productos/c_productos.html" onclick="_blank"><img  src="/demeter/img/productosicon.png" alt=""></a>
+                       <p class="prueba">Productos</p>
+                </div>
+                 <div class="icon_position3">
+                    <a href="/demeter/insumos/insumo/insumos.html" onclick="_blank"><img src="/demeter/img/insumos_b.png" alt=""></a>
+                       <p class="prueba">Insumos</p>
+                </div>
+                 <div class="icon_position4">
+                    <a href="/demeter/informes/informes.html" onclick="_blank"><img src="/demeter/img/informes_b.png" alt=""></a>
+                       <p class="prueba">Informes</p>
+                </div>
+            </div>
+              <div class="icons_inf">
+                   <div class="icon_setting">
+                    <a href="/demeter/setting.html" onclick="_blank"><img src="/demeter/img/confi_b.png" alt=""></a>
+                </div>
+                <div class="icon_usuario">
+                    <a href="/demeter/usuarios.html" onclick="_blank"><img src="/demeter/img/usuarios_b.png" alt=""></a>
+                </div>
+              </div>
+        </div>
+    </nav>
+      
+       <section class="sombra">
+            <div class="position_Shadow">
+                <div class="shadow">
+                  <div class="tittleC">
+                    <h1>Registro categorías</h1>
+                    <a href="/demeter/productos/c_productos.html"><button class="btn1" type="submit">Atrás</button></a>
+                  </div>
+                
+
+                  <form id="myForm" class="position_form1">
+                    <p>Nombre de la categoría <input type="text" id="n.categoriap" required></p>
+                    <button class="btn2" type="submit" id="submitButton">Enviar</button>          
+                    
+                    <div class="contenedorImagenes">
+                      <p>Imagen de la categoría (opcional)</p> 
+                        <img width="200px" height="130px" src="..\img\gema.png" > 
+                        </div>         
+                  </form>
+                    </div>
+                  </form>
+                    
+                </div>
+            </div>
+    </section>
+    </div>
+    <script>
+          const myForm = document.getElementById('myForm');
+          const submitButton = document.getElementById('submitButton');
+
+        myForm.addEventListener('submit', (event) => {
+         event.preventDefault(); 
+
+      const input = document.getElementById('n.categoriap');
+
+      if (input.checkValidity()) {
+      
+        alert('Validado con éxito');
+        myForm.submit();
+        window.location.href = 'c_productos.html';
+      } else {
+        alert('Por favor, ingresa un nombre de categoría válido.');
+      }
+});
+
+    </script>
+</body>
+</html>

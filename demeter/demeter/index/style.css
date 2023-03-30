@@ -1,0 +1,266 @@
+@font-face{
+    font-family: fontHamburguer;
+    src: url(/demeter/font/HAMBH___.TTF)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fontHamburguer;
+}
+
+/* Posicion general, afecta al cuadro  */
+
+.position_gen{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+/* Posicion del logo  */
+
+.parte_sup{
+    display: flex; 
+    margin-left: 60px;
+}
+
+/* Tamaño del logo  */
+
+.parte_sup img{
+    width: 300px;
+    height: 112px;
+    cursor: pointer;
+}
+
+/* Tamaño de la linea   */
+
+.linea_sup img{
+    width: 100%;
+    height: 14px;
+    
+}
+
+
+.position_menu{
+    width: 310px; 
+    height: 833px; 
+    background: #001E38;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* De aqui abajo todos son posiciones y tamaño de los iconos del menu */
+.icon_position0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position0 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.icon_position0 p{
+    font-size: 30px;
+    color: #FFF;
+}
+
+.icon_position1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position1 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position1 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position2 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position2 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position3 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position3 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position4 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position4 p{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.icon_setting img{
+    width: 50px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.icon_usuario{
+    display: flex;
+    justify-content: flex-end;
+    position: relative; 
+    right: 50px;
+    bottom: 25px;
+    
+}
+
+.icon_usuario img{
+    width: 50px;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.posmanejoC{
+    position: relative;
+    left: 400px;
+
+
+}
+
+.dismanejoC{
+    width: 800px;
+    height: 600px;
+    border: 2px solid #000;
+}
+
+.dismanejoC h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.dismanejoC h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 45px;
+}
+
+.positionI {
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #001E38;
+    position: relative;
+    left: 255px;
+    top: 80px;
+}
+
+
+
+.btn2{
+    width: 250px;
+    height: 43px;
+    border-radius: 30px;
+    border: 3px solid #FF8214;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+    color: #001E38;
+    position: relative;
+    top: 250px;
+    right: 20px; 
+}
+    
+
+.button {
+    box-sizing: border-box;
+    position: relative;
+    width: 470px;
+    height: 84px;
+    top: 690px;
+    left: -580px;
+    background: #FFFFFF;
+    border: 6px solid #FF8214;
+    border-radius: 90px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #001E38;
+}
+
+
+
+.S_button{
+    box-sizing: border-box;
+    position: relative;
+    width: 470px;
+    height: 84px;
+    top: 690px;
+    left: -450px;
+    background: #FFFFFF;
+    border: 6px solid #FF8214;
+    border-radius: 90px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #001E38;
+}

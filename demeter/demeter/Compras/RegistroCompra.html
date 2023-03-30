@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>compras</title>
+    <link rel="stylesheet" href="RegistroCompra.css">
+    <script src="/demeter/Compras/ValidacionC.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header>
+    <div class="parte_sup">
+      <a href="/demeter/index/index.html"><img src="/demeter/img/logo.png" alt=""></a>
+    </div>
+    <div class="linea_sup">
+      <img src="/demeter/img/linea_multi.png" alt="">
+    </div>
+  </header>
+ 
+  <div class="position_gen">
+    <nav>
+      <div class="position_menu">
+        <div class="">
+          <div class="icon_position0">
+            <a href="/demeter/Compras/compras.html"><img src="/demeter/img/comprasicon.png" alt=""></a> 
+            <p class="prueba">Compras</p>
+          </div>
+          <div class="icon_position1">
+            <a href="/demeter/ventas/ventas.html" onclick="_blank"><img src="/demeter/img/ventas_b.png" alt=""></a>
+            <p class="prueba">Ventas</p>
+          </div>
+          <div class="icon_position2">
+            <a href="/demeter/productos/c_productos.html" onclick="_blank"><img  src="/demeter/img/productos_b.png" alt=""></a>
+            <p class="prueba">Productos</p>
+          </div>
+          <div class="icon_position3">
+            <a href="/demeter/insumos/c_insumos.html" onclick="_blank"><img src="/demeter/img/insumos_b.png" alt=""></a>
+            <p class="prueba">Insumos</p>
+          </div>
+          <div class="icon_position4">
+            <a href="/demeter/informes/informes.html" onclick="_blank"><img src="/demeter/img/informes_b.png" alt=""></a>
+            <p class="prueba">Informes</p>
+          </div>
+        </div>
+        <div class="icons_inf">
+          <div class="icon_setting">
+            <a href="../setting.html" onclick="_blank"><img src="/demeter/img/confi_b.png" alt=""></a>
+          </div>
+          <div class="icon_usuario">
+            <a href="/demeter/usuarios/usuarios.html" onclick="_blank"><img src="/demeter/img/usuarios_b.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+      
+      <div class="position_Shadow">
+        <div class="shadow">
+          <div class="tittleC">
+            <h1>Registro de compras</h1>
+          </div>
+        <form id="Formulario" action="/demeter/Compras/compras.html" onsubmit="return validarFormulario()">
+          <div class="Nombre_Insumo">
+              <label id="Titulo-N-Insumo">Nombre de insumo</label>
+              <select name="N_Insumo" id="N_Insumo">
+                  <option value="">Select</option>
+                  <option value="1">Carne</option>
+                  <option value="2">Pan</option>
+                  <option value="3">Lechuga</option>
+                  <option value="4">Salsa Rosada</option>
+                  <option value="5">Pollo</option>
+              </select>
+          </div>
+
+          <div class="Fecha">
+              <label id="Titulo-F-Compra">Fecha de compra </label>
+              <input type="date" name="Fecha" id="Fecha_Compra">
+          </div>
+
+          <div class="Usuario">
+              <label id="Titulo-U-Compra">Usuario actual</label>
+              <input type="text" name="Usuario" id="Usuario_Compra" placeholder="2">
+          </div>
+
+          <div class="Valor_Compra">
+              <label id="Titulo-V-Compra">Valor de compra</label>
+              <input type="text" name="V_Compra" id="Valor_Compra">
+          </div>
+
+          <div class="Cantidad">
+              <label id="Titulo-C-Cantidad">Cantidad</label>
+              <input type="text" name="Cantida" id="Cantidad">
+          </div>
+
+          <div class="Proveedor">
+              <label id="Titulo-P-Proveedor">Proveedor</label>
+              <select name="Proveedor" id="Proveedor">
+                  <option value="">Select</option>
+                  <option value="1">Miguel alberlo</option>
+                  <option value="2">Papuchi barbaro</option>
+                  <option value="3">Ricardo Arjona</option>
+                  <option value="4">Pepe el grillo</option>
+                  <option value="5">Rodolfo Perez</option>
+              </select>
+          </div>
+
+          <div class="buttons">
+            <a href="/demeter/Compras/compras.html" onclick="_blank">
+              <button class="btn" type="submit" onclick="confirmacion()">Confirmar</button>
+            </a>
+          </div>
+        </form>
+          <div>
+            <a href="/demeter/Compras/compras.html" onclick="_blank">
+              <button class="btn2">Cancelar</button>
+            </a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,405 @@
+@font-face{
+    font-family: fontHamburguer;
+    src: url(../font/HAMBH___.TTF)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fontHamburguer;
+}
+
+/* Posicion general, afecta al cuadro  */
+
+.position_gen{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+/* Posicion del logo  */
+
+.parte_sup{
+    display: flex; 
+    margin-left: 60px;
+}
+
+/* Tamaño del logo  */
+
+.parte_sup img{
+    width: 300px;
+    height: 112px;
+    cursor: pointer;
+}
+
+/* Tamaño de la linea   */
+
+.linea_sup img{
+    width: 100%;
+    height: 14px;
+}
+
+
+.position_menu{
+    width: 310px; 
+    height: 950px; 
+    background: #001E38;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* De aqui abajo todos son posiciones y tamaño de los iconos del menu */
+.icon_position0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position0 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.icon_position0 p{
+    font-size: 30px;
+    color: #FF8214;
+}
+
+.icon_position1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position1 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position1 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position2 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position2 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position3 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position3 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position4 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position4 p{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.icon_setting img{
+    width: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.icon_usuario{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.icon_usuario img{
+    width: 50px;
+}
+/* Este es el fondo de contenido */
+.shadow{
+    width: 1400px;
+    height: 800px;
+    background: #E6E6E6;
+    -webkit-box-shadow: 10px -12px 0px 4px rgba(171,169,169,0.61);
+    -moz-box-shadow: 10px -12px 0px 4px rgba(171,169,169,0.61);
+    box-shadow: 23px -13px 0px 4px rgba(171,169,169,0.65) ;
+    border-radius: 30px;
+    margin-left: -60px;  
+}
+
+.position_Shadow{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 66px;
+    
+}
+
+.icons_inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*titulo de Lista de compras*/
+
+.tittleC{
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.tittleC h1{
+    font-size: 47px;
+    color: #001E38;
+}
+
+/*Boton de editar en la tabla*/
+
+.editar a{
+    color: #FF8214;
+    text-decoration:underline;
+}
+
+.editar{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.editar:hover {
+    color: #d814ff;
+    transition: all .2s;
+}
+
+/*Boton de ojo en la tabla*/
+
+.ojo{
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+
+/*Botones*/
+
+.buttons{
+    height: 50px;
+    position: relative;
+    left: 390px;
+    top: 300px;
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #FF8214;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.btn2{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #FF8214;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+#Busqueda{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 1000px;
+    top: -30px;
+    font-size: 30px;
+}
+
+/*Input del nombre de insumo*/
+
+.Nombre_Insumo{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+#Titulo-N-Insumo{
+    font-size: 40px;
+}
+
+#N_Insumo{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Input del fecha de compra*/
+
+.Fecha{
+    position: relative;
+    left: 100px;
+    top: 230px;
+}
+
+#Titulo-F-Compra{
+    font-size: 40px;
+}
+
+#Fecha_Compra{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 45px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*input de Usuario*/
+
+.Usuario{
+    position: relative;
+    left: 100px;
+    top: 350px;
+}
+
+#Titulo-U-Compra{
+    font-size: 40px;
+}
+
+#Usuario_Compra{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 25px;
+    background-color: grey;
+}
+
+/*input de Valor compra*/
+
+.Valor_Compra{
+    position: relative;
+    left: 780px;
+    top: -50px;
+}
+
+#Titulo-V-Compra{
+    font-size: 40px;
+}
+
+#Valor_Compra{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*input de Cantidad*/
+
+.Cantidad{
+    position: relative;
+    left: 800px;
+    top: 75px;
+}
+
+#Titulo-C-Cantidad{
+    font-size: 40px;
+}
+
+#Cantidad{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 125px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*input de Proveedor*/
+
+.Proveedor{
+    position: relative;
+    left: 785px;
+    top: 200px;
+}
+
+#Titulo-P-Proveedor{
+    font-size: 40px;
+}
+
+#Proveedor{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 120px;
+    text-align: center;
+    font-size: 25px;
+}

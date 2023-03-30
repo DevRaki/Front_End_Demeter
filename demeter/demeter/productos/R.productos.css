@@ -1,0 +1,346 @@
+@font-face{
+    font-family: fontHamburguer;
+    src: url(../font/HAMBH___.TTF)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fontHamburguer;
+}
+
+/* Posicion general, afecta al cuadro  */
+
+.position_gen{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+/* Posicion del logo  */
+
+.parte_sup{
+    display: flex; 
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+/* Tamaño del logo  */
+
+.parte_sup img{
+    width: 300px;
+    height: 112px;
+}
+
+/* Tamaño de la linea   */
+
+.linea_sup img{
+    width: 100%;
+    height: 14px;
+}
+
+
+.position_menu{
+    width: 310px; 
+    height: 1150px; 
+    background: #001E38;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* De aqui abajo todos son posiciones y tamaño de los iconos del menu */
+.icon_position0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position0 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.icon_position0 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position1 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position1 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position2 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position2 p{
+    font-size: 30px;
+    color: #FF8214;
+}
+
+.icon_position3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position3 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position3 p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icon_position4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_position4 img{
+    margin-top: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.icon_position4 p{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.icon_setting img{
+    width: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.icon_usuario{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.icon_usuario img{
+    width: 50px;
+}
+/* Este es el fondo de contenido */
+.shadow{
+    width: 1500px;
+    height: 1000px;
+    background: #E6E6E6;
+    -webkit-box-shadow: 10px -12px 0px 4px rgba(171,169,169,0.61);
+    -moz-box-shadow: 10px -12px 0px 4px rgba(171,169,169,0.61);
+    box-shadow: 23px -13px 0px 4px rgba(171,169,169,0.65) ;
+    border-radius: 30px;
+    margin-left: -10px;  
+}
+
+.position_Shadow{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 66px;
+    
+}
+
+.icons_inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Cuadro*/
+
+.background-table {
+  width: 1300px; /* Define el ancho de la tabla */
+  height: 300px; /* Define la altura de la tabla */
+  border-collapse: collapse; /* Fusiona los bordes de las celdas */
+  background-color: #fff; /* Define el fondo de la tabla */
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.table_top{
+    background-color: #012341;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.background-table td {
+  width: 200px; /* Define el ancho de las celdas */
+  height: 50px; /* Define la altura de las celdas */
+  border: 1px solid #000; /* Define el borde de las celdas */
+}
+
+tr{
+    text-align: center;
+}
+
+.position_table{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+
+/*titulo de Lista de compras*/
+
+.tittleC{
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.tittleC h1{
+    font-size: 47px;
+    color: #001E38;
+}
+
+/*Boton de editar en la tabla*/
+
+.editar a{
+    color: #FF8214;
+    text-decoration:underline;
+}
+
+.editar{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.editar:hover {
+    color: #d814ff;
+    transition: all .2s;
+}
+
+/*Boton de ojo en la tabla*/
+
+.ojo{
+    width: 40px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*Botones*/
+
+.buttons{
+    height: 50px;
+    position: relative;
+    left: 730px;
+    top: 180px;
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #FF8214;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.btn2{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #FF8214;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#Busqueda{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 1000px;
+    top: -30px;
+    font-size: 30px;
+}
+
+
+.position_form1 input{
+    width: 250px;
+    height: 32px;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #001E38;
+   
+}
+
+.position_form1{
+    position: relative;
+    left: 120px;
+    bottom: -50px;
+    font-size: 30px;
+    color: #001E38;
+
+}
+
+.form1 input{
+    background-color: #9D9797;
+}
+
+.form2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 230px;
+    bottom: 45px;
+}
+
+.form3{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
